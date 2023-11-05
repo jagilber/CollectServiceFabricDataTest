@@ -3790,7 +3790,7 @@
           }
         }
       },
-      "CollectSFDataDll/3.0.2311.10512": {
+      "CollectSFDataDll/3.0.2311.10515": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -3805,8 +3805,8 @@
           "Microsoft.Extensions.CommandLineUtils": "1.1.1",
           "Microsoft.Identity.Client.Extensions.Msal": "4.56.0",
           "Newtonsoft.Json": "13.0.3",
-          "Sf.Tx.Core": "2.9.2311.10512",
-          "Sf.Tx.Windows": "2.9.2311.10512",
+          "Sf.Tx.Core": "2.9.2311.10515",
+          "Sf.Tx.Windows": "2.9.2311.10515",
           "System.CodeDom": "4.7.0",
           "System.Diagnostics.DiagnosticSource": "7.0.2",
           "System.Reactive": "4.0.0"
@@ -3818,7 +3818,7 @@
           "bin/placeholder/CollectSFDataDll.dll": {}
         }
       },
-      "Sf.Tx.Core/2.9.2311.10512": {
+      "Sf.Tx.Core/2.9.2311.10515": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3831,11 +3831,11 @@
           "bin/placeholder/Sf.Tx.Core.dll": {}
         }
       },
-      "Sf.Tx.Windows/2.9.2311.10512": {
+      "Sf.Tx.Windows/2.9.2311.10515": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Sf.Tx.Core": "2.9.2311.10512",
+          "Sf.Tx.Core": "2.9.2311.10515",
           "System.Reactive": "4.0.0",
           "System.Reactive.Linq": "4.0.0",
           "System.Security.Principal.Windows": "4.5.0"
@@ -8585,25 +8585,25 @@
         "version.txt"
       ]
     },
-    "CollectSFDataDll/3.0.2311.10512": {
+    "CollectSFDataDll/3.0.2311.10515": {
       "type": "project",
-      "path": "../CollectSFDataDll/CollectSFDataDll.csproj",
-      "msbuildProject": "../CollectSFDataDll/CollectSFDataDll.csproj"
+      "path": "../CollectServiceFabricData/src/CollectSFDataDll/CollectSFDataDll.csproj",
+      "msbuildProject": "../CollectServiceFabricData/src/CollectSFDataDll/CollectSFDataDll.csproj"
     },
-    "Sf.Tx.Core/2.9.2311.10512": {
+    "Sf.Tx.Core/2.9.2311.10515": {
       "type": "project",
-      "path": "../Tx/Tx.Core/Tx.Core.csproj",
-      "msbuildProject": "../Tx/Tx.Core/Tx.Core.csproj"
+      "path": "../CollectServiceFabricData/src/Tx/Tx.Core/Tx.Core.csproj",
+      "msbuildProject": "../CollectServiceFabricData/src/Tx/Tx.Core/Tx.Core.csproj"
     },
-    "Sf.Tx.Windows/2.9.2311.10512": {
+    "Sf.Tx.Windows/2.9.2311.10515": {
       "type": "project",
-      "path": "../Tx/Tx.Windows/Tx.Windows.csproj",
-      "msbuildProject": "../Tx/Tx.Windows/Tx.Windows.csproj"
+      "path": "../CollectServiceFabricData/src/Tx/Tx.Windows/Tx.Windows.csproj",
+      "msbuildProject": "../CollectServiceFabricData/src/Tx/Tx.Windows/Tx.Windows.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CollectSFDataDll >= 3.0.2311.10512",
+      "CollectSFDataDll >= 3.0.2311.10515",
       "Microsoft.NET.Test.Sdk >= 17.8.0-preview-23424-02",
       "Microsoft.PowerShell.Commands.Utility >= 7.1.3",
       "Microsoft.PowerShell.SDK >= 7.4.0-preview.5",
@@ -8618,14 +8618,13 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\github\\jagilber\\CollectServiceFabricData\\src\\CollectSFDataDllTest\\CollectSFDataDllTest.csproj",
-      "projectName": "CollectSFDataDllTest",
-      "projectPath": "C:\\github\\jagilber\\CollectServiceFabricData\\src\\CollectSFDataDllTest\\CollectSFDataDllTest.csproj",
+      "projectUniqueName": "C:\\github\\jagilber\\CollectServiceFabricDataTest\\CollectSFDataTest.csproj",
+      "projectName": "CollectSFDataTest",
+      "projectPath": "C:\\github\\jagilber\\CollectServiceFabricDataTest\\CollectSFDataTest.csproj",
       "packagesPath": "C:\\Users\\jagilber\\.nuget\\packages\\",
-      "outputPath": "C:\\github\\jagilber\\CollectServiceFabricData\\src\\CollectSFDataDllTest\\obj\\",
+      "outputPath": "C:\\github\\jagilber\\CollectServiceFabricDataTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\github\\jagilber\\CollectServiceFabricData\\NuGet.Config",
         "C:\\Users\\jagilber\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8633,7 +8632,8 @@
         "net6.0"
       ],
       "sources": {
-        "https://servicefabricsupport.pkgs.visualstudio.com/Tools/_packaging/CollectServiceFabricData/nuget/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

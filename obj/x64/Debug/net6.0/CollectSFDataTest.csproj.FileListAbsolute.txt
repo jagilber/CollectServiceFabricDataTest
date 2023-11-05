@@ -1,0 +1,5 @@
+C:\github\jagilber\CollectServiceFabricDataTest\obj\x64\Debug\net6.0\CollectSFDataTest.csproj.AssemblyReference.cache
+C:\github\jagilber\CollectServiceFabricDataTest\obj\x64\Debug\net6.0\CollectSFDataTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\jagilber\CollectServiceFabricDataTest\obj\x64\Debug\net6.0\CollectSFDataTest.AssemblyInfoInputs.cache
+C:\github\jagilber\CollectServiceFabricDataTest\obj\x64\Debug\net6.0\CollectSFDataTest.AssemblyInfo.cs
+C:\github\jagilber\CollectServiceFabricDataTest\obj\x64\Debug\net6.0\CollectSFDataTest.csproj.CoreCompileInputs.cache
